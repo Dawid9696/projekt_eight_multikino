@@ -1,0 +1,169 @@
+/** @format */
+
+.RepertuarCard {
+	margin: 10px;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	border-bottom: 1px solid grey;
+}
+
+.RepertuarCard-Photo {
+	margin: 20px;
+	padding: 0px;
+	width: 200px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	object-fit: cover;
+	background-color: white;
+	-webkit-box-shadow: 10px 10px 26px 0px rgba(78, 78, 78, 0.75);
+	-moz-box-shadow: 10px 10px 26px 0px rgba(78, 78, 78, 0.75);
+	box-shadow: 10px 10px 26px 0px rgba(78, 78, 78, 0.75);
+}
+.RepertuarCard-Photo-Img {
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.RepertuarCard-Photo-Img:hover {
+	cursor: pointer;
+}
+
+.RepertuarCard-Info {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+}
+.RepertuarCard-Infos {
+	margin: 10px;
+	padding: 0px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+.RepertuarCard-Info-Title {
+	margin: 15px;
+	padding: 0px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.RepertuarCard-Info-Title:hover {
+	cursor: pointer;
+}
+
+.RepertuarCard-Info-Genre {
+	font-size: 15px;
+	color: rgb(94, 94, 94);
+	margin: 7px;
+	padding: 0px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.RepertuarCard-Info-Age {
+	font-size: 15px;
+	color: rgb(94, 94, 94);
+	margin: 7px;
+	padding: 0px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+.RepertuarCard-Info-Duration {
+	font-size: 15px;
+	color: rgb(94, 94, 94);
+	margin: 7px;
+	padding: 0px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+.RepertuarCard-Info-Description {
+	margin: 15px;
+	padding: 0px;
+	color: rgb(196, 196, 196);
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	text-align: left;
+}
+.RepertuarCard-Info-Seances {
+	margin: 15px;
+	padding: 0px;
+	width: 100%;
+	height: 80px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	flex-direction: row;
+}
+
+.RepertuarCard-Info-Seances-Card {
+	margin: 5px;
+	padding: 5px;
+	width: 120px;
+	color: white;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border: 2px solid #e6007e;
+	border-radius: 5px;
+}
+
+.RepertuarCard-Info-Seances-Card:hover {
+	background-color: #e6007e;
+	cursor: pointer;
+}
+
+.RepertuarCard-Info-Seances-Card-Info {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.RepertuarCard-Info-Seances-Card-Info > div {
+	margin: 5px;
+}
